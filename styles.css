@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    /*background-color: pink;*/
+    padding: 30px;
+    text-align: center;
+}
+
+.search {
+    /*background-color: aqua;*/
+    padding: 30px;
+    text-align: center;
+}
+
+.search input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-right: 110px;
+    
+}
+
+.search button {
+    background-color: rgb(4, 92, 51);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color:rgb(6, 139, 77) ;
+}
+
+.search button:active {
+    background-color: rgb(3, 63, 35) ;
+}
